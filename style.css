@@ -1,0 +1,84 @@
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+
+body {
+	background-color: #f9fbe7;
+	color:#827717;
+}
+
+#main {
+	width:400px;
+	margin:0 auto;
+}
+.todos, .menu {
+	list-style: none;
+}
+.todos {
+
+}
+
+.todos li {
+	background-color: #f0f4c3;
+	padding:5px 15px;
+	border-bottom: 1px solid #e6ee9c;
+}
+.todos li button {
+	margin-left:10px;
+}
+
+.todos li [type=checkbox] {
+	margin-right:10px;
+}
+
+.menu {
+	margin-top: 17px;
+}
+
+.menu li {
+	display: inline-block;
+}
+.menu li a{
+	margin-left:12px;
+	margin-right:12px;
+}
+
+.menu li a:link,.menu li a:visited, .menu li a:active {
+	text-decoration: none;
+	color:#afb42b;
+}
+
+.menu li a:hover {
+	color:#827717;
+	text-shadow: 1px 1px 1px #fff ;
+}
+
+#addingstuff {
+	width:100%;
+	padding: 8px 0;
+	margin-bottom: 19px;
+	border:dashed 1px #e6ee9c;
+}
+
+h1 {
+	text-align: center;
+	font-size:50px;
+	margin-top:30px;
+	margin-bottom:50px;
+}
+
+.todos button {
+	padding:8px 12px;
+	border: 0;
+	background-color: #e6ee9c;
+	border-radius:50%;
+}
+
+.todos .done {
+	text-decoration: line-through;
+	background-color: transparent;
+}
+
