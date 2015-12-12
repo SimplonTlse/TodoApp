@@ -1,3 +1,8 @@
+/* petit hack pour plus de consistences entre les éléments 
+WARNING: ce n'est pas une bonne pratique, là je l'ai fait sous la pression ;)
+en réalité il faudrait utiliser plutot reset.css ou normalize.css
+*/
+
 * {
 	padding:0;
 	margin:0;
@@ -11,6 +16,8 @@ body {
 }
 
 #main {
+	/* on centre un block en lui fixant une largeur et les marges gauche et droites 
+	à auto */
 	width:400px;
 	margin:0 auto;
 }

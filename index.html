@@ -9,11 +9,14 @@
 
 <div id="main">
 	<h1><span pasteThatShitHere>X</span> things to do</h1>
+	<!-- notre petit formulaire d'ajout des todos -->
 	<form action="">
 		<input type="text" id="addingstuff" placeholder="awesome stuff">
 	</form>
+	<!-- l'élément qui va contenir mes  todos -->
 	<ul class="todos">
 	</ul>
+	<!-- mon panneau de controle -->
 	<ul class="menu">
 		<li><a href="#" act="showAll">Tous</a></li>
 		<li><a href="#" act="showActive">Active</a></li>
@@ -21,9 +24,8 @@
 		<li><a href="#" act="removeCompleted">Remove Completed</a></li>
 	</ul>
 </div>
-	
-
-	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<!-- on charge les scripts à la fin pour des raisons de performances -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="app.js"></script>
 </body>
 </html>
